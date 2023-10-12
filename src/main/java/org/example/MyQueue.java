@@ -8,10 +8,6 @@ class MyQueue {
     private Stack<Integer> stack1 = new Stack();
     private Stack<Integer> stack2 = new Stack();
 
-    private boolean returnsFirst;
-    private boolean pushToFirst;
-
-
     public void push(int i) {
         stack1.push(i);
     }
